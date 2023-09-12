@@ -125,3 +125,24 @@ with open(output_file_path, "w") as outfile:
 print(f"Data has been saved to {output_file_path}")
 
 
+
+
+
+vertices_out = []
+for i, vertex in enumerate(vertices):
+    temp = [float(v) for v in vertex]
+    vertices_out.append(temp)
+
+
+data2 = {
+    "vertices": vertices_out,
+}
+
+# Specify the output JSON file path
+output_file_path = "output_vertices_CE3_test2.json"
+
+# Write the data to the JSON file
+with open(output_file_path, "w") as outfile:
+    json.dump(data2, outfile, separators=(",", ":"))
+
+print(f"Data has been saved to {output_file_path}")
