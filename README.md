@@ -1,5 +1,10 @@
 # tetgen implementation with python
 
+tetgenTest.py for creating teatrahedrals from stl and outputing vertices data as json
+mjcf-xpbd.py to generate the vertices into mjcf format as point masses
+
+
+
 ## Setting up env
 conda create --name tetgen
 conda activate tetgen
