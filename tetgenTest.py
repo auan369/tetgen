@@ -18,16 +18,17 @@ mesh = pv.read('CE3_test2.stl')
 tet = tetgen.TetGen(mesh)
 vertices,elems = tet.tetrahedralize(order=1, mindihedral=20, minratio=1.5)
 grid = tet.grid
+
 #grid.plot(show_edges=True)
 
 
-# mask = np.logical_or(grid.points[:, 0] < 0, grid.points[:, 0] > 4)
-# half = grid.extract_points(mask)
-# plotter = pv.Plotter()
-# plotter.add_mesh(half, color="w", show_edges=True)
-# plotter.add_mesh(grid, color="r", style="wireframe", opacity=0.2)
-# #plotter.camera_position = cpos
-# plotter.show()
+mask = np.logical_or(grid.points[:, 0] < 0, grid.points[:, 0] > 4)
+half = grid.extract_points(mask)
+plotter = pv.Plotter()
+plotter.add_mesh(half, color="w", show_edges=True)
+plotter.add_mesh(grid, color="r", style="wireframe", opacity=0.2)
+#plotter.camera_position = cpos
+plotter.show()
 
 def get_edges_from_tetrahedra(vertices, elems):
     edges = set()
