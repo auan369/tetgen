@@ -7,7 +7,7 @@ pv.set_plot_theme('document')
 
 
 
-mesh = pv.read('CE3_test2.stl')
+mesh = pv.read('prism.stl')
 
 #mesh = pv.read('Assignment_1.stl')
 
@@ -19,16 +19,16 @@ tet = tetgen.TetGen(mesh)
 vertices,elems = tet.tetrahedralize(order=1, mindihedral=20, minratio=1.5)
 grid = tet.grid
 
-#grid.plot(show_edges=True)
+grid.plot(show_edges=True)
 
 
-mask = np.logical_or(grid.points[:, 0] < 0, grid.points[:, 0] > 4)
-half = grid.extract_points(mask)
-plotter = pv.Plotter()
-plotter.add_mesh(half, color="w", show_edges=True)
-plotter.add_mesh(grid, color="r", style="wireframe", opacity=0.2)
-#plotter.camera_position = cpos
-plotter.show()
+# mask = np.logical_or(grid.points[:, 0] < 0, grid.points[:, 0] > 4)
+# half = grid.extract_points(mask)
+# plotter = pv.Plotter()
+# plotter.add_mesh(half, color="w", show_edges=True)
+# plotter.add_mesh(grid, color="r", style="wireframe", opacity=0.2)
+# #plotter.camera_position = cpos
+# plotter.show()
 
 def get_edges_from_tetrahedra(vertices, elems):
     edges = set()
@@ -117,7 +117,7 @@ data = {
 }
 
 # Specify the output JSON file path
-output_file_path = "output_data_CE3_test2.json"
+output_file_path = "output_data_prism.json"
 
 # Write the data to the JSON file
 with open(output_file_path, "w") as outfile:
@@ -140,7 +140,7 @@ data2 = {
 }
 
 # Specify the output JSON file path
-output_file_path = "output_vertices_CE3_test2.json"
+output_file_path = "output_vertices_prism.json"
 
 # Write the data to the JSON file
 with open(output_file_path, "w") as outfile:

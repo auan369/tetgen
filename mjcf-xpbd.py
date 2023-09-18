@@ -4,7 +4,7 @@ import json
 
 
 # Specify the path to your JSON file
-json_file_path = 'output_vertices_CE3_test2.json'
+json_file_path = 'output_vertices_prism.json'
 json_data = None
 try:
     with open(json_file_path, 'r') as json_file:
@@ -27,11 +27,11 @@ for i, data in enumerate(json_data["vertices"]):
 #print(mjcf_model)  # MJCF Element: <mujoco/>
 #print("asdd")
 
-xml_filename = 'my_masses.xml'
+xml_filename = 'my_masses_prism.xml'
 
 #mjcf_model.to_xml_string(xml_filename)
 
 
-export_with_assets(mjcf_model, out_dir='/home/kumyew/Desktop/FYP/tetgen', out_file_name=xml_filename)
-
+#export_with_assets(mjcf_model, out_dir='/home/kumyew/Desktop/FYP/tetgen', out_file_name=xml_filename)
+export_with_assets(mjcf_model, out_dir='C:/Users/lkyew/work/ntu/FYP/Code/tetgen', out_file_name=xml_filename)
 print(f'MJCF model saved to {xml_filename}')

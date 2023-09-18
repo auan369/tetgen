@@ -1,0 +1,18 @@
+<mujoco model="my_masses">
+  <include file="scene.xml"/>
+  <default>
+    <default class="/"/>
+  </default>
+  <worldbody>
+    
+      <body><freejoint/><geom name="point_mass_0" class="/" type="sphere" size="0.03" mass="0.01" pos="-0.17399978637695312 0.10040092468261719 0.50000041723251343"/></body>
+      <body><freejoint/><geom name="point_mass_1" class="/" type="sphere" size="0.03" mass="0.01" pos="0 -0 0.29800042510032654"/></body>
+      <body><freejoint/><geom name="point_mass_2" class="/" type="sphere" size="0.03" mass="0.01" pos="-0.14200019836425781 0.14200019836425781 0.50000041723251343"/></body>
+      <body><freejoint/><geom name="point_mass_3" class="/" type="sphere" size="0.03" mass="0.01" pos="-0.1939997673034668 0.052000045776367188 0.50000041723251343"/></body>
+      <body><freejoint/><geom name="point_mass_4" class="/" type="sphere" size="0.03" mass="0.01" pos="-0.20079994201660156 -0 0.50000041723251343"/></body>
+      <body><freejoint/><geom name="point_mass_5" class="/" type="sphere" size="0.03" mass="0.01" pos="-0.1939997673034668 -0.052000045776367188 0.50000041723251343"/></body>
+      <body><freejoint/><geom name="point_mass_6" class="/" type="sphere" size="0.03" mass="0.01" pos="-0.17399978637695312 -0.10040092468261719 0.50000041723251343"/></body>
+      <body><freejoint/><geom name="point_mass_7" class="/" type="sphere" size="0.03" mass="0.01" pos="-0.14200019836425781 -0.14200019836425781 0.50000041723251343"/></body>
+      
+  </worldbody>
+</mujoco>

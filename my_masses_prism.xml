@@ -1,0 +1,15 @@
+<mujoco model="unnamed_model">
+  <default>
+    <default class="/"/>
+  </default>
+  <worldbody>
+    <geom name="point_mass_0" class="/" type="sphere" size="0.10000000000000001" mass="0.01" pos="0.1057962104678154 0.60000002384185791 0.79420381784439087"/>
+    <geom name="point_mass_1" class="/" type="sphere" size="0.10000000000000001" mass="0.01" pos="0.1057962104678154 0.60000002384185791 0.10579618066549301"/>
+    <geom name="point_mass_2" class="/" type="sphere" size="0.10000000000000001" mass="0.01" pos="0 0 0.89999997615814209"/>
+    <geom name="point_mass_3" class="/" type="sphere" size="0.10000000000000001" mass="0.01" pos="0 0 0"/>
+    <geom name="point_mass_4" class="/" type="sphere" size="0.10000000000000001" mass="0.01" pos="0.4942038357257843 0.60000002384185791 0.79420381784439087"/>
+    <geom name="point_mass_5" class="/" type="sphere" size="0.10000000000000001" mass="0.01" pos="0.60000002384185791 0 0.89999997615814209"/>
+    <geom name="point_mass_6" class="/" type="sphere" size="0.10000000000000001" mass="0.01" pos="0.4942038357257843 0.60000002384185791 0.10579618066549301"/>
+    <geom name="point_mass_7" class="/" type="sphere" size="0.10000000000000001" mass="0.01" pos="0.60000002384185791 0 0"/>
+  </worldbody>
+</mujoco>
