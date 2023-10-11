@@ -4,7 +4,7 @@ import json
 
 
 # Specify the path to your JSON file
-json_file_path = 'output_vertices_prism.json'
+json_file_path = 'output_vertices_ball10.json'
 json_data = None
 try:
     with open(json_file_path, 'r') as json_file:
@@ -19,15 +19,20 @@ except json.JSONDecodeError as e:
 
 mjcf_model = mjcf.RootElement()
 
+
+
+
 for i, data in enumerate(json_data["vertices"]):
     print(data)
-    my_masses = mjcf_model.worldbody.add('geom', name=f'point_mass_{i}',
-                                    type='sphere', pos=data , size=".1", mass="0.01")
+    my_body = mjcf_model.worldbody.add('body', name=f'point_mass_{i}')
+    my_body.add('freejoint')
+    my_body.add('geom', name=f'point_mass_{i}',
+                                    type='sphere', pos=data , size=".01", mass="0.01")
 #print(my_masses)  
 #print(mjcf_model)  # MJCF Element: <mujoco/>
 #print("asdd")
 
-xml_filename = 'my_masses_prism.xml'
+xml_filename = 'my_masses_ball10.xml'
 
 #mjcf_model.to_xml_string(xml_filename)
 
