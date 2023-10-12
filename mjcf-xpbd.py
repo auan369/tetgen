@@ -1,7 +1,7 @@
 from dm_control import mjcf
 from dm_control.mjcf import export_with_assets
 import json
-
+import os
 
 # Specify the path to your JSON file
 json_file_path = 'output_vertices_ball10.json'
@@ -36,7 +36,7 @@ xml_filename = 'my_masses_ball10.xml'
 
 #mjcf_model.to_xml_string(xml_filename)
 
-
+cwd = os.getcwd()
 #export_with_assets(mjcf_model, out_dir='/home/kumyew/Desktop/FYP/tetgen', out_file_name=xml_filename)
-export_with_assets(mjcf_model, out_dir='C:/Users/lkyew/work/ntu/FYP/Code/tetgen', out_file_name=xml_filename)
+export_with_assets(mjcf_model, out_dir=cwd, out_file_name=xml_filename)
 print(f'MJCF model saved to {xml_filename}')
