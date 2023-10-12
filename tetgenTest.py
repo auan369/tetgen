@@ -7,7 +7,7 @@ pv.set_plot_theme('document')
 
 
 
-mesh = pv.read('ball10.stl')
+mesh = pv.read('chest.stl')
 
 #mesh = pv.read('Assignment_1.stl')
 
@@ -68,6 +68,7 @@ for i, vertex in enumerate(vertices):
     verts.extend(vertex)
 print("Number of points: ",len(vertices))
 print("Number of tetrahedra: ",len(elems))
+print("Number of edges: ",len(tetEdgeIds)//2)
 
 for i, elem in enumerate(elems):
     tetIds.extend(elem)  # Assuming each tetrahedron has 4 vertices
@@ -121,7 +122,7 @@ data = {
 }
 
 # Specify the output JSON file path
-output_file_path = "output_data_ball10.json"
+output_file_path = "output_data_chest.json"
 
 # Write the data to the JSON file
 with open(output_file_path, "w") as outfile:
@@ -208,7 +209,7 @@ with open('output.txt', 'w') as file:
 #! end of prints
 
 # Specify the output JSON file path
-output_file_path = "output_vertices_ball10.json"
+output_file_path = "output_vertices_chest.json"
 
 # Write the data to the JSON file
 with open(output_file_path, "w") as outfile:

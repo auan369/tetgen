@@ -4,7 +4,7 @@ import json
 
 
 # Specify the path to your JSON file
-json_file_path = 'output_vertices_ball10.json'
+json_file_path = 'output_vertices_chest.json'
 json_data = None
 try:
     with open(json_file_path, 'r') as json_file:
@@ -27,12 +27,12 @@ for i, data in enumerate(json_data["vertices"]):
     my_body = mjcf_model.worldbody.add('body', name=f'point_mass_{i}')
     my_body.add('freejoint')
     my_body.add('geom', name=f'point_mass_{i}',
-                                    type='sphere', pos=data , size=".01", mass="0.01")
+                                    type='sphere', pos=data , size=".001", mass="0.01")
 #print(my_masses)  
 #print(mjcf_model)  # MJCF Element: <mujoco/>
 #print("asdd")
 
-xml_filename = 'my_masses_ball10.xml'
+xml_filename = 'my_masses_chest.xml'
 
 #mjcf_model.to_xml_string(xml_filename)
 
