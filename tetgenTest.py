@@ -6,8 +6,7 @@ pv.set_plot_theme('document')
 #from stl import mesh
 
 
-
-mesh = pv.read('chest.stl')
+mesh = pv.read('overallRE2.stl')
 
 #mesh = pv.read('Assignment_1.stl')
 
@@ -16,6 +15,7 @@ mesh = pv.read('chest.stl')
 
 #sphere = pv.Sphere()
 tet = tetgen.TetGen(mesh)
+print("hello")
 vertices,elems = tet.tetrahedralize(order=1, mindihedral=20, minratio=1.5)
 grid = tet.grid
 
@@ -122,7 +122,7 @@ data = {
 }
 
 # Specify the output JSON file path
-output_file_path = "output_data_chest.json"
+output_file_path = "output_data_overallRE2.json"
 
 # Write the data to the JSON file
 with open(output_file_path, "w") as outfile:
@@ -209,7 +209,7 @@ with open('output.txt', 'w') as file:
 #! end of prints
 
 # Specify the output JSON file path
-output_file_path = "output_vertices_chest.json"
+output_file_path = "output_vertices_overallRE2.json"
 
 # Write the data to the JSON file
 with open(output_file_path, "w") as outfile:

@@ -1,0 +1,1119 @@
+<mujoco model="unnamed_model">
+  <default>
+    <default class="/"/>
+  </default>
+  <worldbody>
+    <body name="point_mass_0">
+      <freejoint name="//unnamed_joint_0"/>
+      <geom name="point_mass_0" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.1711728572845459 -0.047350428998470306 -0.062404341995716095"/>
+    </body>
+    <body name="point_mass_1">
+      <freejoint name="//unnamed_joint_1"/>
+      <geom name="point_mass_1" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.13070285320281982 -0.048284467309713364 -0.12045227736234665"/>
+    </body>
+    <body name="point_mass_2">
+      <freejoint name="//unnamed_joint_2"/>
+      <geom name="point_mass_2" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.12456952780485153 -0.11742055416107178 -0.11788467317819595"/>
+    </body>
+    <body name="point_mass_3">
+      <freejoint name="//unnamed_joint_3"/>
+      <geom name="point_mass_3" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.14785589277744293 -0.11401323229074478 -0.046722114086151123"/>
+    </body>
+    <body name="point_mass_4">
+      <freejoint name="//unnamed_joint_4"/>
+      <geom name="point_mass_4" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18419942259788513 -0.048226937651634216 -0.017640888690948486"/>
+    </body>
+    <body name="point_mass_5">
+      <freejoint name="//unnamed_joint_5"/>
+      <geom name="point_mass_5" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18481551110744476 -0.090143226087093353 -0.012747249566018581"/>
+    </body>
+    <body name="point_mass_6">
+      <freejoint name="//unnamed_joint_6"/>
+      <geom name="point_mass_6" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.046513110399246216 -0.13964745402336121 -0.048287484794855118"/>
+    </body>
+    <body name="point_mass_7">
+      <freejoint name="//unnamed_joint_7"/>
+      <geom name="point_mass_7" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.048928286880254745 -0.12733715772628784 -0.12891039252281189"/>
+    </body>
+    <body name="point_mass_8">
+      <freejoint name="//unnamed_joint_8"/>
+      <geom name="point_mass_8" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.047550436109304428 -0.04806315153837204 -0.15408508479595184"/>
+    </body>
+    <body name="point_mass_9">
+      <freejoint name="//unnamed_joint_9"/>
+      <geom name="point_mass_9" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18582205474376678 -0.048262786120176315 0.0032752053812146187"/>
+    </body>
+    <body name="point_mass_10">
+      <freejoint name="//unnamed_joint_10"/>
+      <geom name="point_mass_10" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18300448358058929 -0.088153712451457977 -0.0025806496851146221"/>
+    </body>
+    <body name="point_mass_11">
+      <freejoint name="//unnamed_joint_11"/>
+      <geom name="point_mass_11" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.13059355318546295 -0.09813196212053299 0.033553235232830048"/>
+    </body>
+    <body name="point_mass_12">
+      <freejoint name="//unnamed_joint_12"/>
+      <geom name="point_mass_12" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.15875659883022308 -0.048495177179574966 0.05584220215678215"/>
+    </body>
+    <body name="point_mass_13">
+      <freejoint name="//unnamed_joint_13"/>
+      <geom name="point_mass_13" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.10239492356777191 -0.045153491199016571 0.092355474829673767"/>
+    </body>
+    <body name="point_mass_14">
+      <freejoint name="//unnamed_joint_14"/>
+      <geom name="point_mass_14" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.091073364019393921 -0.086239002645015717 0.08236519992351532"/>
+    </body>
+    <body name="point_mass_15">
+      <freejoint name="//unnamed_joint_15"/>
+      <geom name="point_mass_15" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.047843270003795624 -0.13159316778182983 0.045828912407159805"/>
+    </body>
+    <body name="point_mass_16">
+      <freejoint name="//unnamed_joint_16"/>
+      <geom name="point_mass_16" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.047248460352420807 -0.10269562155008316 0.099048122763633728"/>
+    </body>
+    <body name="point_mass_17">
+      <freejoint name="//unnamed_joint_17"/>
+      <geom name="point_mass_17" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.04627528041601181 -0.044999189674854279 0.1159525141119957"/>
+    </body>
+    <body name="point_mass_18">
+      <freejoint name="//unnamed_joint_18"/>
+      <geom name="point_mass_18" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.19444099068641663 0.41462656855583191 -0.049237344413995743"/>
+    </body>
+    <body name="point_mass_19">
+      <freejoint name="//unnamed_joint_19"/>
+      <geom name="point_mass_19" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18612386286258698 0.40439528226852417 -0.092430830001831055"/>
+    </body>
+    <body name="point_mass_20">
+      <freejoint name="//unnamed_joint_20"/>
+      <geom name="point_mass_20" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.19414070248603821 0.37479913234710693 -0.09820980578660965"/>
+    </body>
+    <body name="point_mass_21">
+      <freejoint name="//unnamed_joint_21"/>
+      <geom name="point_mass_21" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.20580780506134033 0.35705184936523438 -0.049488712102174759"/>
+    </body>
+    <body name="point_mass_22">
+      <freejoint name="//unnamed_joint_22"/>
+      <geom name="point_mass_22" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.17073878645896912 0.05602862685918808 -0.043219424784183502"/>
+    </body>
+    <body name="point_mass_23">
+      <freejoint name="//unnamed_joint_23"/>
+      <geom name="point_mass_23" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.1237039715051651 0.048323411494493484 -0.11315138638019562"/>
+    </body>
+    <body name="point_mass_24">
+      <freejoint name="//unnamed_joint_24"/>
+      <geom name="point_mass_24" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.17904993891716003 0.024039480835199356 -0.011722404509782791"/>
+    </body>
+    <body name="point_mass_25">
+      <freejoint name="//unnamed_joint_25"/>
+      <geom name="point_mass_25" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.16066506505012512 0.14960546791553497 -0.046495210379362106"/>
+    </body>
+    <body name="point_mass_26">
+      <freejoint name="//unnamed_joint_26"/>
+      <geom name="point_mass_26" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.11366559565067291 0.14991313219070435 -0.10247855633497238"/>
+    </body>
+    <body name="point_mass_27">
+      <freejoint name="//unnamed_joint_27"/>
+      <geom name="point_mass_27" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.16372071206569672 0.25273957848548889 -0.046265996992588043"/>
+    </body>
+    <body name="point_mass_28">
+      <freejoint name="//unnamed_joint_28"/>
+      <geom name="point_mass_28" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.12514799833297729 0.25274345278739929 -0.11114812642335892"/>
+    </body>
+    <body name="point_mass_29">
+      <freejoint name="//unnamed_joint_29"/>
+      <geom name="point_mass_29" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.17980724573135376 0.31121042370796204 -0.047609902918338776"/>
+    </body>
+    <body name="point_mass_30">
+      <freejoint name="//unnamed_joint_30"/>
+      <geom name="point_mass_30" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.14989079535007477 0.34555628895759583 -0.11979901045560837"/>
+    </body>
+    <body name="point_mass_31">
+      <freejoint name="//unnamed_joint_31"/>
+      <geom name="point_mass_31" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.13878126442432404 0.43925440311431885 -0.11321061849594116"/>
+    </body>
+    <body name="point_mass_32">
+      <freejoint name="//unnamed_joint_32"/>
+      <geom name="point_mass_32" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.16188830137252808 0.45942333340644836 -0.049477450549602509"/>
+    </body>
+    <body name="point_mass_33">
+      <freejoint name="//unnamed_joint_33"/>
+      <geom name="point_mass_33" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.12124622613191605 0.51533198356628418 -0.049926899373531342"/>
+    </body>
+    <body name="point_mass_34">
+      <freejoint name="//unnamed_joint_34"/>
+      <geom name="point_mass_34" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.10523179173469543 0.50085735321044922 -0.10102903842926025"/>
+    </body>
+    <body name="point_mass_35">
+      <freejoint name="//unnamed_joint_35"/>
+      <geom name="point_mass_35" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.046214677393436432 0.04777831956744194 -0.13655506074428558"/>
+    </body>
+    <body name="point_mass_36">
+      <freejoint name="//unnamed_joint_36"/>
+      <geom name="point_mass_36" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.045265913009643555 0.14987647533416748 -0.11823221296072006"/>
+    </body>
+    <body name="point_mass_37">
+      <freejoint name="//unnamed_joint_37"/>
+      <geom name="point_mass_37" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.046455327421426773 0.25284317135810852 -0.13618426024913788"/>
+    </body>
+    <body name="point_mass_38">
+      <freejoint name="//unnamed_joint_38"/>
+      <geom name="point_mass_38" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.045799471437931061 0.35095581412315369 -0.15028610825538635"/>
+    </body>
+    <body name="point_mass_39">
+      <freejoint name="//unnamed_joint_39"/>
+      <geom name="point_mass_39" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.046738121658563614 0.44477483630180359 -0.14520454406738281"/>
+    </body>
+    <body name="point_mass_40">
+      <freejoint name="//unnamed_joint_40"/>
+      <geom name="point_mass_40" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.047324266284704208 0.51826673746109009 -0.11325228214263916"/>
+    </body>
+    <body name="point_mass_41">
+      <freejoint name="//unnamed_joint_41"/>
+      <geom name="point_mass_41" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.049722578376531601 0.55760020017623901 -0.049987178295850754"/>
+    </body>
+    <body name="point_mass_42">
+      <freejoint name="//unnamed_joint_42"/>
+      <geom name="point_mass_42" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.17871269583702087 0.024194668978452682 0.001549991313368082"/>
+    </body>
+    <body name="point_mass_43">
+      <freejoint name="//unnamed_joint_43"/>
+      <geom name="point_mass_43" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.19839459657669067 0.4141976535320282 0.0091375960037112236"/>
+    </body>
+    <body name="point_mass_44">
+      <freejoint name="//unnamed_joint_44"/>
+      <geom name="point_mass_44" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18709357082843781 0.37141728401184082 0.0038206260651350021"/>
+    </body>
+    <body name="point_mass_45">
+      <freejoint name="//unnamed_joint_45"/>
+      <geom name="point_mass_45" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.16295678913593292 0.057158786803483963 0.037452880293130875"/>
+    </body>
+    <body name="point_mass_46">
+      <freejoint name="//unnamed_joint_46"/>
+      <geom name="point_mass_46" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.10830741375684738 0.050860263407230377 0.10013806074857712"/>
+    </body>
+    <body name="point_mass_47">
+      <freejoint name="//unnamed_joint_47"/>
+      <geom name="point_mass_47" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.14809192717075348 0.1491340845823288 0.042776893824338913"/>
+    </body>
+    <body name="point_mass_48">
+      <freejoint name="//unnamed_joint_48"/>
+      <geom name="point_mass_48" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.10268271714448929 0.14901284873485565 0.098032981157302856"/>
+    </body>
+    <body name="point_mass_49">
+      <freejoint name="//unnamed_joint_49"/>
+      <geom name="point_mass_49" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.14531129598617554 0.25085198879241943 0.041020475327968597"/>
+    </body>
+    <body name="point_mass_50">
+      <freejoint name="//unnamed_joint_50"/>
+      <geom name="point_mass_50" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.10317401587963104 0.24865929782390594 0.095586754381656647"/>
+    </body>
+    <body name="point_mass_51">
+      <freejoint name="//unnamed_joint_51"/>
+      <geom name="point_mass_51" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.15715916454792023 0.34131896495819092 0.038870174437761307"/>
+    </body>
+    <body name="point_mass_52">
+      <freejoint name="//unnamed_joint_52"/>
+      <geom name="point_mass_52" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.10538365691900253 0.34738951921463013 0.095002911984920502"/>
+    </body>
+    <body name="point_mass_53">
+      <freejoint name="//unnamed_joint_53"/>
+      <geom name="point_mass_53" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.14150992035865784 0.44207218289375305 0.043703891336917877"/>
+    </body>
+    <body name="point_mass_54">
+      <freejoint name="//unnamed_joint_54"/>
+      <geom name="point_mass_54" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.093814447522163391 0.39644831418991089 0.078604072332382202"/>
+    </body>
+    <body name="point_mass_55">
+      <freejoint name="//unnamed_joint_55"/>
+      <geom name="point_mass_55" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.10944519937038422 0.50016903877258301 0.0066540846601128578"/>
+    </body>
+    <body name="point_mass_56">
+      <freejoint name="//unnamed_joint_56"/>
+      <geom name="point_mass_56" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.046194069087505341 0.051387660205364227 0.13559900224208832"/>
+    </body>
+    <body name="point_mass_57">
+      <freejoint name="//unnamed_joint_57"/>
+      <geom name="point_mass_57" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.046462465077638626 0.14942049980163574 0.13812828063964844"/>
+    </body>
+    <body name="point_mass_58">
+      <freejoint name="//unnamed_joint_58"/>
+      <geom name="point_mass_58" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.045834798365831375 0.24771381914615631 0.12368445098400116"/>
+    </body>
+    <body name="point_mass_59">
+      <freejoint name="//unnamed_joint_59"/>
+      <geom name="point_mass_59" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.046709775924682617 0.34532603621482849 0.10433498024940491"/>
+    </body>
+    <body name="point_mass_60">
+      <freejoint name="//unnamed_joint_60"/>
+      <geom name="point_mass_60" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.046272728592157364 0.40712127089500427 0.083347991108894348"/>
+    </body>
+    <body name="point_mass_61">
+      <freejoint name="//unnamed_joint_61"/>
+      <geom name="point_mass_61" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.046006694436073303 0.45498982071876526 0.063196152448654175"/>
+    </body>
+    <body name="point_mass_62">
+      <freejoint name="//unnamed_joint_62"/>
+      <geom name="point_mass_62" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.047632321715354919 0.51875293254852295 0.024490930140018463"/>
+    </body>
+    <body name="point_mass_63">
+      <freejoint name="//unnamed_joint_63"/>
+      <geom name="point_mass_63" class="/" type="sphere" size="0.001" mass="0.01" pos="0.046518560498952866 -0.13976961374282837 -0.048175502568483353"/>
+    </body>
+    <body name="point_mass_64">
+      <freejoint name="//unnamed_joint_64"/>
+      <geom name="point_mass_64" class="/" type="sphere" size="0.001" mass="0.01" pos="0.048769649118185043 -0.12638102471828461 -0.12743380665779114"/>
+    </body>
+    <body name="point_mass_65">
+      <freejoint name="//unnamed_joint_65"/>
+      <geom name="point_mass_65" class="/" type="sphere" size="0.001" mass="0.01" pos="0.047355927526950836 -0.048153471201658249 -0.15295706689357758"/>
+    </body>
+    <body name="point_mass_66">
+      <freejoint name="//unnamed_joint_66"/>
+      <geom name="point_mass_66" class="/" type="sphere" size="0.001" mass="0.01" pos="0.14815777540206909 -0.1155703216791153 -0.046690311282873154"/>
+    </body>
+    <body name="point_mass_67">
+      <freejoint name="//unnamed_joint_67"/>
+      <geom name="point_mass_67" class="/" type="sphere" size="0.001" mass="0.01" pos="0.12326790392398834 -0.11667664349079132 -0.11642564833164215"/>
+    </body>
+    <body name="point_mass_68">
+      <freejoint name="//unnamed_joint_68"/>
+      <geom name="point_mass_68" class="/" type="sphere" size="0.001" mass="0.01" pos="0.13048961758613586 -0.048684082925319672 -0.12090347707271576"/>
+    </body>
+    <body name="point_mass_69">
+      <freejoint name="//unnamed_joint_69"/>
+      <geom name="point_mass_69" class="/" type="sphere" size="0.001" mass="0.01" pos="0.16980282962322235 -0.047668911516666412 -0.059353597462177277"/>
+    </body>
+    <body name="point_mass_70">
+      <freejoint name="//unnamed_joint_70"/>
+      <geom name="point_mass_70" class="/" type="sphere" size="0.001" mass="0.01" pos="0.18091392517089844 -0.048529356718063354 -0.013592390343546867"/>
+    </body>
+    <body name="point_mass_71">
+      <freejoint name="//unnamed_joint_71"/>
+      <geom name="point_mass_71" class="/" type="sphere" size="0.001" mass="0.01" pos="0.18335869908332825 -0.089425206184387207 -0.011302802711725235"/>
+    </body>
+    <body name="point_mass_72">
+      <freejoint name="//unnamed_joint_72"/>
+      <geom name="point_mass_72" class="/" type="sphere" size="0.001" mass="0.01" pos="0.047835074365139008 -0.1318000853061676 0.045673884451389313"/>
+    </body>
+    <body name="point_mass_73">
+      <freejoint name="//unnamed_joint_73"/>
+      <geom name="point_mass_73" class="/" type="sphere" size="0.001" mass="0.01" pos="0.047742154449224472 -0.10456287115812302 0.10098633915185928"/>
+    </body>
+    <body name="point_mass_74">
+      <freejoint name="//unnamed_joint_74"/>
+      <geom name="point_mass_74" class="/" type="sphere" size="0.001" mass="0.01" pos="0.046818133443593979 -0.045582093298435211 0.11902765184640884"/>
+    </body>
+    <body name="point_mass_75">
+      <freejoint name="//unnamed_joint_75"/>
+      <geom name="point_mass_75" class="/" type="sphere" size="0.001" mass="0.01" pos="0.13187815248966217 -0.099682547152042389 0.034528490155935287"/>
+    </body>
+    <body name="point_mass_76">
+      <freejoint name="//unnamed_joint_76"/>
+      <geom name="point_mass_76" class="/" type="sphere" size="0.001" mass="0.01" pos="0.092929884791374207 -0.087540969252586365 0.083737678825855255"/>
+    </body>
+    <body name="point_mass_77">
+      <freejoint name="//unnamed_joint_77"/>
+      <geom name="point_mass_77" class="/" type="sphere" size="0.001" mass="0.01" pos="0.16011165082454681 -0.048582363873720169 0.054701603949069977"/>
+    </body>
+    <body name="point_mass_78">
+      <freejoint name="//unnamed_joint_78"/>
+      <geom name="point_mass_78" class="/" type="sphere" size="0.001" mass="0.01" pos="0.105134516954422 -0.045815296471118927 0.095124512910842896"/>
+    </body>
+    <body name="point_mass_79">
+      <freejoint name="//unnamed_joint_79"/>
+      <geom name="point_mass_79" class="/" type="sphere" size="0.001" mass="0.01" pos="0.18435139954090118 -0.089609414339065552 -0.0013127126730978489"/>
+    </body>
+    <body name="point_mass_80">
+      <freejoint name="//unnamed_joint_80"/>
+      <geom name="point_mass_80" class="/" type="sphere" size="0.001" mass="0.01" pos="0.18176829814910889 -0.048439927399158478 0.001302727498114109"/>
+    </body>
+    <body name="point_mass_81">
+      <freejoint name="//unnamed_joint_81"/>
+      <geom name="point_mass_81" class="/" type="sphere" size="0.001" mass="0.01" pos="0.045592773705720901 0.047693472355604172 -0.13443504273891449"/>
+    </body>
+    <body name="point_mass_82">
+      <freejoint name="//unnamed_joint_82"/>
+      <geom name="point_mass_82" class="/" type="sphere" size="0.001" mass="0.01" pos="0.044788651168346405 0.14994564652442932 -0.11689431965351105"/>
+    </body>
+    <body name="point_mass_83">
+      <freejoint name="//unnamed_joint_83"/>
+      <geom name="point_mass_83" class="/" type="sphere" size="0.001" mass="0.01" pos="0.046035356819629669 0.2532966136932373 -0.13371087610721588"/>
+    </body>
+    <body name="point_mass_84">
+      <freejoint name="//unnamed_joint_84"/>
+      <geom name="point_mass_84" class="/" type="sphere" size="0.001" mass="0.01" pos="0.046042207628488541 0.35107752680778503 -0.15156252682209015"/>
+    </body>
+    <body name="point_mass_85">
+      <freejoint name="//unnamed_joint_85"/>
+      <geom name="point_mass_85" class="/" type="sphere" size="0.001" mass="0.01" pos="0.047229107469320297 0.44517838954925537 -0.1477736234664917"/>
+    </body>
+    <body name="point_mass_86">
+      <freejoint name="//unnamed_joint_86"/>
+      <geom name="point_mass_86" class="/" type="sphere" size="0.001" mass="0.01" pos="0.047894198447465897 0.52010440826416016 -0.11480806767940521"/>
+    </body>
+    <body name="point_mass_87">
+      <freejoint name="//unnamed_joint_87"/>
+      <geom name="point_mass_87" class="/" type="sphere" size="0.001" mass="0.01" pos="0.049486339092254639 0.55822688341140747 -0.049939710646867752"/>
+    </body>
+    <body name="point_mass_88">
+      <freejoint name="//unnamed_joint_88"/>
+      <geom name="point_mass_88" class="/" type="sphere" size="0.001" mass="0.01" pos="0.12220464646816254 0.048451054841279984 -0.11245726048946381"/>
+    </body>
+    <body name="point_mass_89">
+      <freejoint name="//unnamed_joint_89"/>
+      <geom name="point_mass_89" class="/" type="sphere" size="0.001" mass="0.01" pos="0.16940964758396149 0.054110884666442871 -0.041054949164390564"/>
+    </body>
+    <body name="point_mass_90">
+      <freejoint name="//unnamed_joint_90"/>
+      <geom name="point_mass_90" class="/" type="sphere" size="0.001" mass="0.01" pos="0.111434206366539 0.15027821063995361 -0.099861070513725281"/>
+    </body>
+    <body name="point_mass_91">
+      <freejoint name="//unnamed_joint_91"/>
+      <geom name="point_mass_91" class="/" type="sphere" size="0.001" mass="0.01" pos="0.16051754355430603 0.15012028813362122 -0.046437691897153854"/>
+    </body>
+    <body name="point_mass_92">
+      <freejoint name="//unnamed_joint_92"/>
+      <geom name="point_mass_92" class="/" type="sphere" size="0.001" mass="0.01" pos="0.12592034041881561 0.2538267970085144 -0.10935214906930923"/>
+    </body>
+    <body name="point_mass_93">
+      <freejoint name="//unnamed_joint_93"/>
+      <geom name="point_mass_93" class="/" type="sphere" size="0.001" mass="0.01" pos="0.16761171817779541 0.25821644067764282 -0.048863530158996582"/>
+    </body>
+    <body name="point_mass_94">
+      <freejoint name="//unnamed_joint_94"/>
+      <geom name="point_mass_94" class="/" type="sphere" size="0.001" mass="0.01" pos="0.15123261511325836 0.3435484766960144 -0.12115335464477539"/>
+    </body>
+    <body name="point_mass_95">
+      <freejoint name="//unnamed_joint_95"/>
+      <geom name="point_mass_95" class="/" type="sphere" size="0.001" mass="0.01" pos="0.1773277074098587 0.31090071797370911 -0.078695319592952728"/>
+    </body>
+    <body name="point_mass_96">
+      <freejoint name="//unnamed_joint_96"/>
+      <geom name="point_mass_96" class="/" type="sphere" size="0.001" mass="0.01" pos="0.14079786837100983 0.44194066524505615 -0.11742693930864334"/>
+    </body>
+    <body name="point_mass_97">
+      <freejoint name="//unnamed_joint_97"/>
+      <geom name="point_mass_97" class="/" type="sphere" size="0.001" mass="0.01" pos="0.10807935893535614 0.50429648160934448 -0.1038142517209053"/>
+    </body>
+    <body name="point_mass_98">
+      <freejoint name="//unnamed_joint_98"/>
+      <geom name="point_mass_98" class="/" type="sphere" size="0.001" mass="0.01" pos="0.12168855220079422 0.51786130666732788 -0.049771171063184738"/>
+    </body>
+    <body name="point_mass_99">
+      <freejoint name="//unnamed_joint_99"/>
+      <geom name="point_mass_99" class="/" type="sphere" size="0.001" mass="0.01" pos="0.16329024732112885 0.46097931265830994 -0.049563471227884293"/>
+    </body>
+    <body name="point_mass_100">
+      <freejoint name="//unnamed_joint_100"/>
+      <geom name="point_mass_100" class="/" type="sphere" size="0.001" mass="0.01" pos="0.17652800679206848 0.020215880125761032 -0.0076961577869951725"/>
+    </body>
+    <body name="point_mass_101">
+      <freejoint name="//unnamed_joint_101"/>
+      <geom name="point_mass_101" class="/" type="sphere" size="0.001" mass="0.01" pos="0.20028087496757507 0.34329012036323547 -0.052954293787479401"/>
+    </body>
+    <body name="point_mass_102">
+      <freejoint name="//unnamed_joint_102"/>
+      <geom name="point_mass_102" class="/" type="sphere" size="0.001" mass="0.01" pos="0.19384455680847168 0.37044703960418701 -0.098788797855377197"/>
+    </body>
+    <body name="point_mass_103">
+      <freejoint name="//unnamed_joint_103"/>
+      <geom name="point_mass_103" class="/" type="sphere" size="0.001" mass="0.01" pos="0.17537692189216614 0.29612141847610474 -0.02460242435336113"/>
+    </body>
+    <body name="point_mass_104">
+      <freejoint name="//unnamed_joint_104"/>
+      <geom name="point_mass_104" class="/" type="sphere" size="0.001" mass="0.01" pos="0.18818798661231995 0.40698638558387756 -0.094868630170822144"/>
+    </body>
+    <body name="point_mass_105">
+      <freejoint name="//unnamed_joint_105"/>
+      <geom name="point_mass_105" class="/" type="sphere" size="0.001" mass="0.01" pos="0.19574202597141266 0.41541561484336853 -0.049669302999973297"/>
+    </body>
+    <body name="point_mass_106">
+      <freejoint name="//unnamed_joint_106"/>
+      <geom name="point_mass_106" class="/" type="sphere" size="0.001" mass="0.01" pos="0.046395778656005859 0.051286783069372177 0.13574156165122986"/>
+    </body>
+    <body name="point_mass_107">
+      <freejoint name="//unnamed_joint_107"/>
+      <geom name="point_mass_107" class="/" type="sphere" size="0.001" mass="0.01" pos="0.046767424792051315 0.14960239827632904 0.13900601863861084"/>
+    </body>
+    <body name="point_mass_108">
+      <freejoint name="//unnamed_joint_108"/>
+      <geom name="point_mass_108" class="/" type="sphere" size="0.001" mass="0.01" pos="0.046398032456636429 0.24783489108085632 0.12598319351673126"/>
+    </body>
+    <body name="point_mass_109">
+      <freejoint name="//unnamed_joint_109"/>
+      <geom name="point_mass_109" class="/" type="sphere" size="0.001" mass="0.01" pos="0.047454450279474258 0.34519824385643005 0.10653232038021088"/>
+    </body>
+    <body name="point_mass_110">
+      <freejoint name="//unnamed_joint_110"/>
+      <geom name="point_mass_110" class="/" type="sphere" size="0.001" mass="0.01" pos="0.047072343528270721 0.40943628549575806 0.084648787975311279"/>
+    </body>
+    <body name="point_mass_111">
+      <freejoint name="//unnamed_joint_111"/>
+      <geom name="point_mass_111" class="/" type="sphere" size="0.001" mass="0.01" pos="0.046743307262659073 0.45753508806228638 0.065461985766887665"/>
+    </body>
+    <body name="point_mass_112">
+      <freejoint name="//unnamed_joint_112"/>
+      <geom name="point_mass_112" class="/" type="sphere" size="0.001" mass="0.01" pos="0.048215482383966446 0.52210456132888794 0.027263501659035683"/>
+    </body>
+    <body name="point_mass_113">
+      <freejoint name="//unnamed_joint_113"/>
+      <geom name="point_mass_113" class="/" type="sphere" size="0.001" mass="0.01" pos="0.16370363533496857 0.055233679711818695 0.037157900631427765"/>
+    </body>
+    <body name="point_mass_114">
+      <freejoint name="//unnamed_joint_114"/>
+      <geom name="point_mass_114" class="/" type="sphere" size="0.001" mass="0.01" pos="0.10815028101205826 0.050808466970920563 0.099506936967372894"/>
+    </body>
+    <body name="point_mass_115">
+      <freejoint name="//unnamed_joint_115"/>
+      <geom name="point_mass_115" class="/" type="sphere" size="0.001" mass="0.01" pos="0.15184423327445984 0.14987801015377045 0.043645601719617844"/>
+    </body>
+    <body name="point_mass_116">
+      <freejoint name="//unnamed_joint_116"/>
+      <geom name="point_mass_116" class="/" type="sphere" size="0.001" mass="0.01" pos="0.10474365949630737 0.14972329139709473 0.099073305726051331"/>
+    </body>
+    <body name="point_mass_117">
+      <freejoint name="//unnamed_joint_117"/>
+      <geom name="point_mass_117" class="/" type="sphere" size="0.001" mass="0.01" pos="0.15783755481243134 0.25500562787055969 0.033523529767990112"/>
+    </body>
+    <body name="point_mass_118">
+      <freejoint name="//unnamed_joint_118"/>
+      <geom name="point_mass_118" class="/" type="sphere" size="0.001" mass="0.01" pos="0.10859820246696472 0.24930715560913086 0.099239185452461243"/>
+    </body>
+    <body name="point_mass_119">
+      <freejoint name="//unnamed_joint_119"/>
+      <geom name="point_mass_119" class="/" type="sphere" size="0.001" mass="0.01" pos="0.15835939347743988 0.34896817803382874 0.054294347763061523"/>
+    </body>
+    <body name="point_mass_120">
+      <freejoint name="//unnamed_joint_120"/>
+      <geom name="point_mass_120" class="/" type="sphere" size="0.001" mass="0.01" pos="0.1111002191901207 0.34737223386764526 0.098114848136901855"/>
+    </body>
+    <body name="point_mass_121">
+      <freejoint name="//unnamed_joint_121"/>
+      <geom name="point_mass_121" class="/" type="sphere" size="0.001" mass="0.01" pos="0.1431206613779068 0.4425320029258728 0.045468144118785858"/>
+    </body>
+    <body name="point_mass_122">
+      <freejoint name="//unnamed_joint_122"/>
+      <geom name="point_mass_122" class="/" type="sphere" size="0.001" mass="0.01" pos="0.098388530313968658 0.39941000938415527 0.081291675567626953"/>
+    </body>
+    <body name="point_mass_123">
+      <freejoint name="//unnamed_joint_123"/>
+      <geom name="point_mass_123" class="/" type="sphere" size="0.001" mass="0.01" pos="0.10895365476608276 0.502524733543396 0.0089525971561670303"/>
+    </body>
+    <body name="point_mass_124">
+      <freejoint name="//unnamed_joint_124"/>
+      <geom name="point_mass_124" class="/" type="sphere" size="0.001" mass="0.01" pos="0.17628909647464752 0.02044934406876564 -0.00021470570936799049"/>
+    </body>
+    <body name="point_mass_125">
+      <freejoint name="//unnamed_joint_125"/>
+      <geom name="point_mass_125" class="/" type="sphere" size="0.001" mass="0.01" pos="0.17275024950504303 0.29602131247520447 -0.0038623351138085127"/>
+    </body>
+    <body name="point_mass_126">
+      <freejoint name="//unnamed_joint_126"/>
+      <geom name="point_mass_126" class="/" type="sphere" size="0.001" mass="0.01" pos="0.18366268277168274 0.35094544291496277 0.0044296914711594582"/>
+    </body>
+    <body name="point_mass_127">
+      <freejoint name="//unnamed_joint_127"/>
+      <geom name="point_mass_127" class="/" type="sphere" size="0.001" mass="0.01" pos="0.19398871064186096 0.41070306301116943 0.0083321044221520424"/>
+    </body>
+    <body name="point_mass_128">
+      <freejoint name="//unnamed_joint_128"/>
+      <geom name="point_mass_128" class="/" type="sphere" size="0.001" mass="0.01" pos="0.16840127366188484 0.42950461568589471 -0.00023825161755046398"/>
+    </body>
+    <body name="point_mass_129">
+      <freejoint name="//unnamed_joint_129"/>
+      <geom name="point_mass_129" class="/" type="sphere" size="0.001" mass="0.01" pos="0.07985508422909092 0.42073235342396048 0.071275842807750248"/>
+    </body>
+    <body name="point_mass_130">
+      <freejoint name="//unnamed_joint_130"/>
+      <geom name="point_mass_130" class="/" type="sphere" size="0.001" mass="0.01" pos="0.18058089901761798 0.30946617474148902 -0.017825763688379487"/>
+    </body>
+    <body name="point_mass_131">
+      <freejoint name="//unnamed_joint_131"/>
+      <geom name="point_mass_131" class="/" type="sphere" size="0.001" mass="0.01" pos="0.07892091128896149 0.52033124554582422 -0.0049303711761231536"/>
+    </body>
+    <body name="point_mass_132">
+      <freejoint name="//unnamed_joint_132"/>
+      <geom name="point_mass_132" class="/" type="sphere" size="0.001" mass="0.01" pos="0.085928985928473339 0.48810415082655501 -0.11588023442954636"/>
+    </body>
+    <body name="point_mass_133">
+      <freejoint name="//unnamed_joint_133"/>
+      <geom name="point_mass_133" class="/" type="sphere" size="0.001" mass="0.01" pos="0.13129060715436935 0.20236445963382721 0.066298417747020721"/>
+    </body>
+    <body name="point_mass_134">
+      <freejoint name="//unnamed_joint_134"/>
+      <geom name="point_mass_134" class="/" type="sphere" size="0.001" mass="0.01" pos="0.15401586215661667 0.18797010474601095 0.039977955380578897"/>
+    </body>
+    <body name="point_mass_135">
+      <freejoint name="//unnamed_joint_135"/>
+      <geom name="point_mass_135" class="/" type="sphere" size="0.001" mass="0.01" pos="0.15972797572612762 0.20404722541570663 -0.0026089642196893692"/>
+    </body>
+    <body name="point_mass_136">
+      <freejoint name="//unnamed_joint_136"/>
+      <geom name="point_mass_136" class="/" type="sphere" size="0.001" mass="0.01" pos="0.16406463086605072 0.20416836440563202 -0.047650611028075218"/>
+    </body>
+    <body name="point_mass_137">
+      <freejoint name="//unnamed_joint_137"/>
+      <geom name="point_mass_137" class="/" type="sphere" size="0.001" mass="0.01" pos="0.13581153933085943 0.007111600658165497 0.064763067986438425"/>
+    </body>
+    <body name="point_mass_138">
+      <freejoint name="//unnamed_joint_138"/>
+      <geom name="point_mass_138" class="/" type="sphere" size="0.001" mass="0.01" pos="0.10664239898324013 0.0024965852499008179 0.097315724939107895"/>
+    </body>
+    <body name="point_mass_139">
+      <freejoint name="//unnamed_joint_139"/>
+      <geom name="point_mass_139" class="/" type="sphere" size="0.001" mass="0.01" pos="0.00023528933525085449 0.43232817947864532 0.074404988437891006"/>
+    </body>
+    <body name="point_mass_140">
+      <freejoint name="//unnamed_joint_140"/>
+      <geom name="point_mass_140" class="/" type="sphere" size="0.001" mass="0.01" pos="0.00080982595682144165 0.29645603150129318 0.11510838568210602"/>
+    </body>
+    <body name="point_mass_141">
+      <freejoint name="//unnamed_joint_141"/>
+      <geom name="point_mass_141" class="/" type="sphere" size="0.001" mass="0.01" pos="-3.2216310501098633e-05 0.19862769544124603 0.13205573707818985"/>
+    </body>
+    <body name="point_mass_142">
+      <freejoint name="//unnamed_joint_142"/>
+      <geom name="point_mass_142" class="/" type="sphere" size="0.001" mass="0.01" pos="6.0249119997024536e-05 0.0031437966972589493 0.12584703788161278"/>
+    </body>
+    <body name="point_mass_143">
+      <freejoint name="//unnamed_joint_143"/>
+      <geom name="point_mass_143" class="/" type="sphere" size="0.001" mass="0.01" pos="0.1757391169667244 0.43398284912109375 -0.072216050699353218"/>
+    </body>
+    <body name="point_mass_144">
+      <freejoint name="//unnamed_joint_144"/>
+      <geom name="point_mass_144" class="/" type="sphere" size="0.001" mass="0.01" pos="0.09923086129128933 0.39436343312263489 -0.13446348905563354"/>
+    </body>
+    <body name="point_mass_145">
+      <freejoint name="//unnamed_joint_145"/>
+      <geom name="point_mass_145" class="/" type="sphere" size="0.001" mass="0.01" pos="0.16959247781716541 0.006783128020721764 -0.049563847846258918"/>
+    </body>
+    <body name="point_mass_146">
+      <freejoint name="//unnamed_joint_146"/>
+      <geom name="point_mass_146" class="/" type="sphere" size="0.001" mass="0.01" pos="0.17458599665398289 0.0079279136782643561 -0.028698172327390418"/>
+    </body>
+    <body name="point_mass_147">
+      <freejoint name="//unnamed_joint_147"/>
+      <geom name="point_mass_147" class="/" type="sphere" size="0.001" mass="0.01" pos="0.17872096598148346 -0.014156738296151161 -0.01064427406527102"/>
+    </body>
+    <body name="point_mass_148">
+      <freejoint name="//unnamed_joint_148"/>
+      <geom name="point_mass_148" class="/" type="sphere" size="0.001" mass="0.01" pos="0.17902004897113474 -0.013886557231127417 0.00054161578643335774"/>
+    </body>
+    <body name="point_mass_149">
+      <freejoint name="//unnamed_joint_149"/>
+      <geom name="point_mass_149" class="/" type="sphere" size="0.001" mass="0.01" pos="0.17007430689790981 -0.0060701416562685823 0.020882154464972089"/>
+    </body>
+    <body name="point_mass_150">
+      <freejoint name="//unnamed_joint_150"/>
+      <geom name="point_mass_150" class="/" type="sphere" size="0.001" mass="0.01" pos="0.1619947551577999 0.0058433835007206253 0.045504285964288502"/>
+    </body>
+    <body name="point_mass_151">
+      <freejoint name="//unnamed_joint_151"/>
+      <geom name="point_mass_151" class="/" type="sphere" size="0.001" mass="0.01" pos="0.17719278111251724 -0.015329608060011407 -0.022475359031660348"/>
+    </body>
+    <body name="point_mass_152">
+      <freejoint name="//unnamed_joint_152"/>
+      <geom name="point_mass_152" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.00091418996453285217 0.53885230422019958 -0.082397622987627983"/>
+    </body>
+    <body name="point_mass_153">
+      <freejoint name="//unnamed_joint_153"/>
+      <geom name="point_mass_153" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.00083333812654018402 0.20139440894126892 -0.12653928995132446"/>
+    </body>
+    <body name="point_mass_154">
+      <freejoint name="//unnamed_joint_154"/>
+      <geom name="point_mass_154" class="/" type="sphere" size="0.001" mass="0.01" pos="0.18023114191958606 -0.092564786421004477 -0.006478467718564751"/>
+    </body>
+    <body name="point_mass_155">
+      <freejoint name="//unnamed_joint_155"/>
+      <geom name="point_mass_155" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.083375133664332066 0.48955762232940542 0.031806043318968108"/>
+    </body>
+    <body name="point_mass_156">
+      <freejoint name="//unnamed_joint_156"/>
+      <geom name="point_mass_156" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.17802683438592337 0.34806753252227496 0.00096892885084036429"/>
+    </body>
+    <body name="point_mass_157">
+      <freejoint name="//unnamed_joint_157"/>
+      <geom name="point_mass_157" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.16048575438791021 0.29641076513576675 -0.0042923755748032824"/>
+    </body>
+    <body name="point_mass_158">
+      <freejoint name="//unnamed_joint_158"/>
+      <geom name="point_mass_158" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.13281975314021111 0.10308581776916981 0.067742930725216866"/>
+    </body>
+    <body name="point_mass_159">
+      <freejoint name="//unnamed_joint_159"/>
+      <geom name="point_mass_159" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.1594153568148613 0.10258135572075844 -0.00022126547992229462"/>
+    </body>
+    <body name="point_mass_160">
+      <freejoint name="//unnamed_joint_160"/>
+      <geom name="point_mass_160" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.16570192575454712 0.10281704738736153 -0.044857317581772804"/>
+    </body>
+    <body name="point_mass_161">
+      <freejoint name="//unnamed_joint_161"/>
+      <geom name="point_mass_161" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.1772972240866014 0.029845607050090744 -0.0063971574143670551"/>
+    </body>
+    <body name="point_mass_162">
+      <freejoint name="//unnamed_joint_162"/>
+      <geom name="point_mass_162" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.181456059217453 -0.012016134336590767 -0.0080454486887902021"/>
+    </body>
+    <body name="point_mass_163">
+      <freejoint name="//unnamed_joint_163"/>
+      <geom name="point_mass_163" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.17663530374109629 0.0021556670650493062 -0.027258410705009263"/>
+    </body>
+    <body name="point_mass_164">
+      <freejoint name="//unnamed_joint_164"/>
+      <geom name="point_mass_164" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18153858117617808 -0.010885430885055468 -0.014582689298665699"/>
+    </body>
+    <body name="point_mass_165">
+      <freejoint name="//unnamed_joint_165"/>
+      <geom name="point_mass_165" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18029426004666904 0.0065770249750719441 -0.013152546904224245"/>
+    </body>
+    <body name="point_mass_166">
+      <freejoint name="//unnamed_joint_166"/>
+      <geom name="point_mass_166" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18017314735643611 0.0049175571317633532 -0.0035582182043963871"/>
+    </body>
+    <body name="point_mass_167">
+      <freejoint name="//unnamed_joint_167"/>
+      <geom name="point_mass_167" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.180664717816856 0.0042999714662434706 0.0020236846272844336"/>
+    </body>
+    <body name="point_mass_168">
+      <freejoint name="//unnamed_joint_168"/>
+      <geom name="point_mass_168" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18237944241921653 -0.01317622892141164 0.0024397934558410992"/>
+    </body>
+    <body name="point_mass_169">
+      <freejoint name="//unnamed_joint_169"/>
+      <geom name="point_mass_169" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.17869622107340122 -0.015408735491307057 0.013926488897409613"/>
+    </body>
+    <body name="point_mass_170">
+      <freejoint name="//unnamed_joint_170"/>
+      <geom name="point_mass_170" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.17784262132912815 0.013097573950124331 -0.019490407607396027"/>
+    </body>
+    <body name="point_mass_171">
+      <freejoint name="//unnamed_joint_171"/>
+      <geom name="point_mass_171" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.15072081983089447 0.0038720797747373581 -0.081835851073265076"/>
+    </body>
+    <body name="point_mass_172">
+      <freejoint name="//unnamed_joint_172"/>
+      <geom name="point_mass_172" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.17092120232826918 0.012584149067719069 -0.051281780382354258"/>
+    </body>
+    <body name="point_mass_173">
+      <freejoint name="//unnamed_joint_173"/>
+      <geom name="point_mass_173" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.15771449202039106 0.022094000093713109 -0.068344439502175336"/>
+    </body>
+    <body name="point_mass_174">
+      <freejoint name="//unnamed_joint_174"/>
+      <geom name="point_mass_174" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.14618099344267499 0.052005583837588285 -0.079732264045591056"/>
+    </body>
+    <body name="point_mass_175">
+      <freejoint name="//unnamed_joint_175"/>
+      <geom name="point_mass_175" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.094153627973210474 0.51640757880389709 -0.073135823381440562"/>
+    </body>
+    <body name="point_mass_176">
+      <freejoint name="//unnamed_joint_176"/>
+      <geom name="point_mass_176" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18697397410869598 0.34300477802753448 -0.072909854352474213"/>
+    </body>
+    <body name="point_mass_177">
+      <freejoint name="//unnamed_joint_177"/>
+      <geom name="point_mass_177" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.19428913700317713 0.39448610724346655 -0.074002382225552443"/>
+    </body>
+    <body name="point_mass_178">
+      <freejoint name="//unnamed_joint_178"/>
+      <geom name="point_mass_178" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.097849581390619278 -0.12280320003628731 -0.00044660083949565887"/>
+    </body>
+    <body name="point_mass_179">
+      <freejoint name="//unnamed_joint_179"/>
+      <geom name="point_mass_179" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18505151749136256 -0.080323432054520846 -0.0089904311657751975"/>
+    </body>
+    <body name="point_mass_180">
+      <freejoint name="//unnamed_joint_180"/>
+      <geom name="point_mass_180" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18441326916217804 -0.068208249285817146 0.00034727784804999828"/>
+    </body>
+    <body name="point_mass_181">
+      <freejoint name="//unnamed_joint_181"/>
+      <geom name="point_mass_181" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18370887637138367 -0.078180980868637562 -0.0011166859185323119"/>
+    </body>
+    <body name="point_mass_182">
+      <freejoint name="//unnamed_joint_182"/>
+      <geom name="point_mass_182" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.17972283192589844 -0.082786419624168189 0.0053261615849209236"/>
+    </body>
+    <body name="point_mass_183">
+      <freejoint name="//unnamed_joint_183"/>
+      <geom name="point_mass_183" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18536854951881923 -0.067132309171855031 -0.0039438229577934579"/>
+    </body>
+    <body name="point_mass_184">
+      <freejoint name="//unnamed_joint_184"/>
+      <geom name="point_mass_184" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18466199731785435 -0.079698739323509141 -0.013966621580427432"/>
+    </body>
+    <body name="point_mass_185">
+      <freejoint name="//unnamed_joint_185"/>
+      <geom name="point_mass_185" class="/" type="sphere" size="0.001" mass="0.01" pos="0.17762448638677597 0.0030295709148049355 -0.0091702159261330962"/>
+    </body>
+    <body name="point_mass_186">
+      <freejoint name="//unnamed_joint_186"/>
+      <geom name="point_mass_186" class="/" type="sphere" size="0.001" mass="0.01" pos="0.17765803565413765 0.0032378544463758444 0.00016441407730892943"/>
+    </body>
+    <body name="point_mass_187">
+      <freejoint name="//unnamed_joint_187"/>
+      <geom name="point_mass_187" class="/" type="sphere" size="0.001" mass="0.01" pos="0.17317382114311894 0.0071559736876898247 0.010360475841401259"/>
+    </body>
+    <body name="point_mass_188">
+      <freejoint name="//unnamed_joint_188"/>
+      <geom name="point_mass_188" class="/" type="sphere" size="0.001" mass="0.01" pos="0.13699343987262519 0.38538504903750659 -0.04996838973246491"/>
+    </body>
+    <body name="point_mass_189">
+      <freejoint name="//unnamed_joint_189"/>
+      <geom name="point_mass_189" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.033812785398496789 0.48840774149129101 -0.072207755143172181"/>
+    </body>
+    <body name="point_mass_190">
+      <freejoint name="//unnamed_joint_190"/>
+      <geom name="point_mass_190" class="/" type="sphere" size="0.001" mass="0.01" pos="0.075947371412439055 0.44153559754622729 0.0013195571355778236"/>
+    </body>
+    <body name="point_mass_191">
+      <freejoint name="//unnamed_joint_191"/>
+      <geom name="point_mass_191" class="/" type="sphere" size="0.001" mass="0.01" pos="0.067263048248502988 0.095168234591675907 0.018808462801383437"/>
+    </body>
+    <body name="point_mass_192">
+      <freejoint name="//unnamed_joint_192"/>
+      <geom name="point_mass_192" class="/" type="sphere" size="0.001" mass="0.01" pos="0.083073731915765794 -0.028822040782568767 -0.051833756022908427"/>
+    </body>
+    <body name="point_mass_193">
+      <freejoint name="//unnamed_joint_193"/>
+      <geom name="point_mass_193" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.038075961565523078 0.24239188065016842 -0.023793868707525496"/>
+    </body>
+    <body name="point_mass_194">
+      <freejoint name="//unnamed_joint_194"/>
+      <geom name="point_mass_194" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.060460575585608342 0.079606512207835128 -0.053791578246981553"/>
+    </body>
+    <body name="point_mass_195">
+      <freejoint name="//unnamed_joint_195"/>
+      <geom name="point_mass_195" class="/" type="sphere" size="0.001" mass="0.01" pos="0.089506105016280424 0.27556649709748915 0.0010293180321045061"/>
+    </body>
+    <body name="point_mass_196">
+      <freejoint name="//unnamed_joint_196"/>
+      <geom name="point_mass_196" class="/" type="sphere" size="0.001" mass="0.01" pos="0.066473854669849369 0.36788539742472243 0.028858966167997074"/>
+    </body>
+    <body name="point_mass_197">
+      <freejoint name="//unnamed_joint_197"/>
+      <geom name="point_mass_197" class="/" type="sphere" size="0.001" mass="0.01" pos="0.12305728526742385 0.34943162930468663 0.016422808193474487"/>
+    </body>
+    <body name="point_mass_198">
+      <freejoint name="//unnamed_joint_198"/>
+      <geom name="point_mass_198" class="/" type="sphere" size="0.001" mass="0.01" pos="0.043302274722498896 0.2285626103956058 -0.057628998323169964"/>
+    </body>
+    <body name="point_mass_199">
+      <freejoint name="//unnamed_joint_199"/>
+      <geom name="point_mass_199" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.039011088523170187 0.39389390488707687 -0.064523428322531176"/>
+    </body>
+    <body name="point_mass_200">
+      <freejoint name="//unnamed_joint_200"/>
+      <geom name="point_mass_200" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.075525320721064285 -0.052311000074777431 0.020661585609478325"/>
+    </body>
+    <body name="point_mass_201">
+      <freejoint name="//unnamed_joint_201"/>
+      <geom name="point_mass_201" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.041361220320784126 0.10108077985666987 0.04834069915817215"/>
+    </body>
+    <body name="point_mass_202">
+      <freejoint name="//unnamed_joint_202"/>
+      <geom name="point_mass_202" class="/" type="sphere" size="0.001" mass="0.01" pos="0.077241056665218147 0.18693202800909425 0.011928346826294288"/>
+    </body>
+    <body name="point_mass_203">
+      <freejoint name="//unnamed_joint_203"/>
+      <geom name="point_mass_203" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.10589554482852902 0.0093455255446242835 -0.017905918625967524"/>
+    </body>
+    <body name="point_mass_204">
+      <freejoint name="//unnamed_joint_204"/>
+      <geom name="point_mass_204" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.14444697483137811 0.3844610203585242 -0.03541229500813789"/>
+    </body>
+    <body name="point_mass_205">
+      <freejoint name="//unnamed_joint_205"/>
+      <geom name="point_mass_205" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.15325051890111763 -0.060692890223821981 -0.0075797906255115387"/>
+    </body>
+    <body name="point_mass_206">
+      <freejoint name="//unnamed_joint_206"/>
+      <geom name="point_mass_206" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.021478090614827555 0.013783015082722783 -0.042484499388939244"/>
+    </body>
+    <body name="point_mass_207">
+      <freejoint name="//unnamed_joint_207"/>
+      <geom name="point_mass_207" class="/" type="sphere" size="0.001" mass="0.01" pos="0.1321737052364477 -0.051686667609250891 -0.014575031561074382"/>
+    </body>
+    <body name="point_mass_208">
+      <freejoint name="//unnamed_joint_208"/>
+      <geom name="point_mass_208" class="/" type="sphere" size="0.001" mass="0.01" pos="0.14185670732810959 -0.0053836137163207967 -0.0015511870266496739"/>
+    </body>
+    <body name="point_mass_209">
+      <freejoint name="//unnamed_joint_209"/>
+      <geom name="point_mass_209" class="/" type="sphere" size="0.001" mass="0.01" pos="0.058235661265279695 0.014712969396365671 0.043538145945723521"/>
+    </body>
+    <body name="point_mass_210">
+      <freejoint name="//unnamed_joint_210"/>
+      <geom name="point_mass_210" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.14762068984782148 -0.010737322648910022 -0.0030189927805406979"/>
+    </body>
+    <body name="point_mass_211">
+      <freejoint name="//unnamed_joint_211"/>
+      <geom name="point_mass_211" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.10057332127362435 0.059787212104455735 0.013705833034626629"/>
+    </body>
+    <body name="point_mass_212">
+      <freejoint name="//unnamed_joint_212"/>
+      <geom name="point_mass_212" class="/" type="sphere" size="0.001" mass="0.01" pos="0.0036675759918711214 0.13891634359997149 -0.048779520867279491"/>
+    </body>
+    <body name="point_mass_213">
+      <freejoint name="//unnamed_joint_213"/>
+      <geom name="point_mass_213" class="/" type="sphere" size="0.001" mass="0.01" pos="0.12978237870162393 0.024702605439327906 -0.021176513179342625"/>
+    </body>
+    <body name="point_mass_214">
+      <freejoint name="//unnamed_joint_214"/>
+      <geom name="point_mass_214" class="/" type="sphere" size="0.001" mass="0.01" pos="0.068399037505596103 0.071057651926454204 -0.054168634736755379"/>
+    </body>
+    <body name="point_mass_215">
+      <freejoint name="//unnamed_joint_215"/>
+      <geom name="point_mass_215" class="/" type="sphere" size="0.001" mass="0.01" pos="0.07764232268191823 0.1537375976969379 -0.043811156668574734"/>
+    </body>
+    <body name="point_mass_216">
+      <freejoint name="//unnamed_joint_216"/>
+      <geom name="point_mass_216" class="/" type="sphere" size="0.001" mass="0.01" pos="0.037351176856415758 -0.054027853474146854 0.042480114670713748"/>
+    </body>
+    <body name="point_mass_217">
+      <freejoint name="//unnamed_joint_217"/>
+      <geom name="point_mass_217" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.16873334155341457 -0.025474925764046502 -0.0038711601626668225"/>
+    </body>
+    <body name="point_mass_218">
+      <freejoint name="//unnamed_joint_218"/>
+      <geom name="point_mass_218" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.16714876514793953 -0.0020052090266718132 -0.014480669165254723"/>
+    </body>
+    <body name="point_mass_219">
+      <freejoint name="//unnamed_joint_219"/>
+      <geom name="point_mass_219" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.096417155279098679 -0.047069025106443174 -0.067024100611903142"/>
+    </body>
+    <body name="point_mass_220">
+      <freejoint name="//unnamed_joint_220"/>
+      <geom name="point_mass_220" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18081460328694454 -0.0035492886024137069 -0.0058018334465932946"/>
+    </body>
+    <body name="point_mass_221">
+      <freejoint name="//unnamed_joint_221"/>
+      <geom name="point_mass_221" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18091642061142357 -0.0021542029549917463 -0.01386761810144497"/>
+    </body>
+    <body name="point_mass_222">
+      <freejoint name="//unnamed_joint_222"/>
+      <geom name="point_mass_222" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18152208011803625 -0.0044381287275840862 0.0022317390415627666"/>
+    </body>
+    <body name="point_mass_223">
+      <freejoint name="//unnamed_joint_223"/>
+      <geom name="point_mass_223" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.092962597413321024 0.31993762135999321 -0.02651186026287352"/>
+    </body>
+    <body name="point_mass_224">
+      <freejoint name="//unnamed_joint_224"/>
+      <geom name="point_mass_224" class="/" type="sphere" size="0.001" mass="0.01" pos="0.11675251420554461 0.21970695820537808 -0.029308919606469648"/>
+    </body>
+    <body name="point_mass_225">
+      <freejoint name="//unnamed_joint_225"/>
+      <geom name="point_mass_225" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.15340256494728685 0.017176284327253693 -0.027429295119481695"/>
+    </body>
+    <body name="point_mass_226">
+      <freejoint name="//unnamed_joint_226"/>
+      <geom name="point_mass_226" class="/" type="sphere" size="0.001" mass="0.01" pos="0.15325467441869409 0.0061285277509436119 -0.0033899934951734027"/>
+    </body>
+    <body name="point_mass_227">
+      <freejoint name="//unnamed_joint_227"/>
+      <geom name="point_mass_227" class="/" type="sphere" size="0.001" mass="0.01" pos="0.16395048700793613 -0.0108320086916286 -0.01709356379622232"/>
+    </body>
+    <body name="point_mass_228">
+      <freejoint name="//unnamed_joint_228"/>
+      <geom name="point_mass_228" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.15045512131145183 -0.01292102906387773 -0.037980318301812047"/>
+    </body>
+    <body name="point_mass_229">
+      <freejoint name="//unnamed_joint_229"/>
+      <geom name="point_mass_229" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.16354897431491047 0.018616882940339134 -0.013691136656893883"/>
+    </body>
+    <body name="point_mass_230">
+      <freejoint name="//unnamed_joint_230"/>
+      <geom name="point_mass_230" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.1724112732123807 -0.0093718169636689101 -0.0029640218809079029"/>
+    </body>
+    <body name="point_mass_231">
+      <freejoint name="//unnamed_joint_231"/>
+      <geom name="point_mass_231" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.045345937735444382 0.015211869945876234 0.059912638518066538"/>
+    </body>
+    <body name="point_mass_232">
+      <freejoint name="//unnamed_joint_232"/>
+      <geom name="point_mass_232" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.17471608152294452 -0.0060637151447009751 -0.010322854285825135"/>
+    </body>
+    <body name="point_mass_233">
+      <freejoint name="//unnamed_joint_233"/>
+      <geom name="point_mass_233" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.13550224471182634 0.015428998528572532 0.01578252538950874"/>
+    </body>
+    <body name="point_mass_234">
+      <freejoint name="//unnamed_joint_234"/>
+      <geom name="point_mass_234" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.086089733855413283 0.44745947199124092 -0.07865638554474863"/>
+    </body>
+    <body name="point_mass_235">
+      <freejoint name="//unnamed_joint_235"/>
+      <geom name="point_mass_235" class="/" type="sphere" size="0.001" mass="0.01" pos="0.14563590533168613 0.30607865032094972 -0.033565672799827639"/>
+    </body>
+    <body name="point_mass_236">
+      <freejoint name="//unnamed_joint_236"/>
+      <geom name="point_mass_236" class="/" type="sphere" size="0.001" mass="0.01" pos="0.16588971480931927 -0.0041466900069804134 0.0010652482776508951"/>
+    </body>
+    <body name="point_mass_237">
+      <freejoint name="//unnamed_joint_237"/>
+      <geom name="point_mass_237" class="/" type="sphere" size="0.001" mass="0.01" pos="0.040178060002713338 0.18028716467851869 0.078077389774804801"/>
+    </body>
+    <body name="point_mass_238">
+      <freejoint name="//unnamed_joint_238"/>
+      <geom name="point_mass_238" class="/" type="sphere" size="0.001" mass="0.01" pos="0.12685876970943319 0.019183985387466254 0.023642736830613381"/>
+    </body>
+    <body name="point_mass_239">
+      <freejoint name="//unnamed_joint_239"/>
+      <geom name="point_mass_239" class="/" type="sphere" size="0.001" mass="0.01" pos="0.16123949635299464 -0.029787921540595383 0.001581875609936308"/>
+    </body>
+    <body name="point_mass_240">
+      <freejoint name="//unnamed_joint_240"/>
+      <geom name="point_mass_240" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.035611573334824537 0.19243259360367374 0.052482712529570479"/>
+    </body>
+    <body name="point_mass_241">
+      <freejoint name="//unnamed_joint_241"/>
+      <geom name="point_mass_241" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.079665524977017732 0.46345723333415123 -0.013646297388069759"/>
+    </body>
+    <body name="point_mass_242">
+      <freejoint name="//unnamed_joint_242"/>
+      <geom name="point_mass_242" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.087597363133592204 0.17328694945523429 -0.027075110787565092"/>
+    </body>
+    <body name="point_mass_243">
+      <freejoint name="//unnamed_joint_243"/>
+      <geom name="point_mass_243" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.11872806231996316 0.1053022547163207 -0.023651735073142745"/>
+    </body>
+    <body name="point_mass_244">
+      <freejoint name="//unnamed_joint_244"/>
+      <geom name="point_mass_244" class="/" type="sphere" size="0.001" mass="0.01" pos="0.10433437242962713 0.45671723268055003 -0.062010351288886149"/>
+    </body>
+    <body name="point_mass_245">
+      <freejoint name="//unnamed_joint_245"/>
+      <geom name="point_mass_245" class="/" type="sphere" size="0.001" mass="0.01" pos="0.03982656961670672 0.49518153751004917 -0.053539702033288693"/>
+    </body>
+    <body name="point_mass_246">
+      <freejoint name="//unnamed_joint_246"/>
+      <geom name="point_mass_246" class="/" type="sphere" size="0.001" mass="0.01" pos="0.18039417356012183 -0.031163242315142947 0.00092217164227373339"/>
+    </body>
+    <body name="point_mass_247">
+      <freejoint name="//unnamed_joint_247"/>
+      <geom name="point_mass_247" class="/" type="sphere" size="0.001" mass="0.01" pos="0.17973787257911719 -0.030095813961537366 -0.012011357825169849"/>
+    </body>
+    <body name="point_mass_248">
+      <freejoint name="//unnamed_joint_248"/>
+      <geom name="point_mass_248" class="/" type="sphere" size="0.001" mass="0.01" pos="0.17891832893026888 -0.030724807210599003 -0.018356199172636124"/>
+    </body>
+    <body name="point_mass_249">
+      <freejoint name="//unnamed_joint_249"/>
+      <geom name="point_mass_249" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.135085262429299 0.054774079972654412 -0.024295325265573035"/>
+    </body>
+    <body name="point_mass_250">
+      <freejoint name="//unnamed_joint_250"/>
+      <geom name="point_mass_250" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.0075237437252893358 -0.081800513271252859 -0.051390988081593779"/>
+    </body>
+    <body name="point_mass_251">
+      <freejoint name="//unnamed_joint_251"/>
+      <geom name="point_mass_251" class="/" type="sphere" size="0.001" mass="0.01" pos="0.031482769135656605 0.24536911313802195 0.053905883071339179"/>
+    </body>
+    <body name="point_mass_252">
+      <freejoint name="//unnamed_joint_252"/>
+      <geom name="point_mass_252" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.1199774177259862 0.026710994009112959 -0.057799867701500959"/>
+    </body>
+    <body name="point_mass_253">
+      <freejoint name="//unnamed_joint_253"/>
+      <geom name="point_mass_253" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.1700059597906507 0.002079890133716122 -0.0023091402892867806"/>
+    </body>
+    <body name="point_mass_254">
+      <freejoint name="//unnamed_joint_254"/>
+      <geom name="point_mass_254" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.043856774651637148 0.30453475186818618 0.050703377707012068"/>
+    </body>
+    <body name="point_mass_255">
+      <freejoint name="//unnamed_joint_255"/>
+      <geom name="point_mass_255" class="/" type="sphere" size="0.001" mass="0.01" pos="0.17707624658942223 0.011622725520282984 -0.0084331868565641344"/>
+    </body>
+    <body name="point_mass_256">
+      <freejoint name="//unnamed_joint_256"/>
+      <geom name="point_mass_256" class="/" type="sphere" size="0.001" mass="0.01" pos="0.17697702899563911 0.011800060285127485 -2.418677725328497e-05"/>
+    </body>
+    <body name="point_mass_257">
+      <freejoint name="//unnamed_joint_257"/>
+      <geom name="point_mass_257" class="/" type="sphere" size="0.001" mass="0.01" pos="0.17472357826572349 0.013769031359669039 0.0050996365296158367"/>
+    </body>
+    <body name="point_mass_258">
+      <freejoint name="//unnamed_joint_258"/>
+      <geom name="point_mass_258" class="/" type="sphere" size="0.001" mass="0.01" pos="0.16334758733412372 0.017677429278558403 -0.00052338058315395323"/>
+    </body>
+    <body name="point_mass_259">
+      <freejoint name="//unnamed_joint_259"/>
+      <geom name="point_mass_259" class="/" type="sphere" size="0.001" mass="0.01" pos="0.1640237020219894 0.012115402117538898 -0.017779877219214101"/>
+    </body>
+    <body name="point_mass_260">
+      <freejoint name="//unnamed_joint_260"/>
+      <geom name="point_mass_260" class="/" type="sphere" size="0.001" mass="0.01" pos="0.16387042525111456 0.004035231988504002 0.004687990558810343"/>
+    </body>
+    <body name="point_mass_261">
+      <freejoint name="//unnamed_joint_261"/>
+      <geom name="point_mass_261" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.17532085583877241 0.0064057747667450784 -0.01089091187317455"/>
+    </body>
+    <body name="point_mass_262">
+      <freejoint name="//unnamed_joint_262"/>
+      <geom name="point_mass_262" class="/" type="sphere" size="0.001" mass="0.01" pos="0.15375512295278665 0.00041637790005834464 0.019961929824271678"/>
+    </body>
+    <body name="point_mass_263">
+      <freejoint name="//unnamed_joint_263"/>
+      <geom name="point_mass_263" class="/" type="sphere" size="0.001" mass="0.01" pos="0.16916777760550006 0.0065032575721295401 -0.002808728064068905"/>
+    </body>
+    <body name="point_mass_264">
+      <freejoint name="//unnamed_joint_264"/>
+      <geom name="point_mass_264" class="/" type="sphere" size="0.001" mass="0.01" pos="0.11591461667187947 -0.024684219867110231 0.031551548135465797"/>
+    </body>
+    <body name="point_mass_265">
+      <freejoint name="//unnamed_joint_265"/>
+      <geom name="point_mass_265" class="/" type="sphere" size="0.001" mass="0.01" pos="0.0012387664370283537 0.31146912605938604 -0.066425034486006979"/>
+    </body>
+    <body name="point_mass_266">
+      <freejoint name="//unnamed_joint_266"/>
+      <geom name="point_mass_266" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.0091237679119721814 0.45205137412457497 -0.024931266820869408"/>
+    </body>
+    <body name="point_mass_267">
+      <freejoint name="//unnamed_joint_267"/>
+      <geom name="point_mass_267" class="/" type="sphere" size="0.001" mass="0.01" pos="0.035778010424999521 0.39462092729681536 -0.03968463236732056"/>
+    </body>
+    <body name="point_mass_268">
+      <freejoint name="//unnamed_joint_268"/>
+      <geom name="point_mass_268" class="/" type="sphere" size="0.001" mass="0.01" pos="0.14677297721686702 -0.0072011583859865318 -0.022890971504037298"/>
+    </body>
+    <body name="point_mass_269">
+      <freejoint name="//unnamed_joint_269"/>
+      <geom name="point_mass_269" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.043264482782378537 0.39206730850099381 0.025471273553709799"/>
+    </body>
+    <body name="point_mass_270">
+      <freejoint name="//unnamed_joint_270"/>
+      <geom name="point_mass_270" class="/" type="sphere" size="0.001" mass="0.01" pos="0.068862194376952249 0.32479033146818609 -0.053092125751173259"/>
+    </body>
+    <body name="point_mass_271">
+      <freejoint name="//unnamed_joint_271"/>
+      <geom name="point_mass_271" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.0064226173776567377 0.33623019798748705 -0.0093319516837882602"/>
+    </body>
+    <body name="point_mass_272">
+      <freejoint name="//unnamed_joint_272"/>
+      <geom name="point_mass_272" class="/" type="sphere" size="0.001" mass="0.01" pos="0.020658637078014849 0.43159388295986378 0.033574201274274011"/>
+    </body>
+    <body name="point_mass_273">
+      <freejoint name="//unnamed_joint_273"/>
+      <geom name="point_mass_273" class="/" type="sphere" size="0.001" mass="0.01" pos="0.097210727499811786 0.0059016998111142641 -0.0056195004108691871"/>
+    </body>
+    <body name="point_mass_274">
+      <freejoint name="//unnamed_joint_274"/>
+      <geom name="point_mass_274" class="/" type="sphere" size="0.001" mass="0.01" pos="0.024243086232879747 0.30090051959530967 0.0033803740998717283"/>
+    </body>
+    <body name="point_mass_275">
+      <freejoint name="//unnamed_joint_275"/>
+      <geom name="point_mass_275" class="/" type="sphere" size="0.001" mass="0.01" pos="0.0090164672907432821 0.36055678364678745 0.049489627517491815"/>
+    </body>
+    <body name="point_mass_276">
+      <freejoint name="//unnamed_joint_276"/>
+      <geom name="point_mass_276" class="/" type="sphere" size="0.001" mass="0.01" pos="0.065469376477213737 0.30675347476676579 0.058702528076721272"/>
+    </body>
+    <body name="point_mass_277">
+      <freejoint name="//unnamed_joint_277"/>
+      <geom name="point_mass_277" class="/" type="sphere" size="0.001" mass="0.01" pos="-0.18521003350509091 -0.073727870613187946 -0.0064671270617843273"/>
+    </body>
+  </worldbody>
+</mujoco>
