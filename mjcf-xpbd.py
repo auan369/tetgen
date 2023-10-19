@@ -4,7 +4,7 @@ import json
 import os
 
 # Specify the path to your JSON file
-json_file_path = 'output_vertices_chest.json'
+json_file_path = 'output_vertices_overallRE2.json'
 json_data = None
 try:
     with open(json_file_path, 'r') as json_file:
@@ -23,16 +23,16 @@ mjcf_model = mjcf.RootElement()
 
 
 for i, data in enumerate(json_data["vertices"]):
-    print(data)
+    # print(data)
     my_body = mjcf_model.worldbody.add('body', name=f'point_mass_{i}')
     my_body.add('freejoint')
     my_body.add('geom', name=f'point_mass_{i}',
                                     type='sphere', pos=data , size=".001", mass="0.01")
 #print(my_masses)  
 #print(mjcf_model)  # MJCF Element: <mujoco/>
-#print("asdd")
+print("Starting to export...")
 
-xml_filename = 'my_masses_chest.xml'
+xml_filename = 'my_masses_overallRE2.xml'
 
 #mjcf_model.to_xml_string(xml_filename)
 
