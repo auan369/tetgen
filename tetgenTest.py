@@ -6,7 +6,7 @@ pv.set_plot_theme('document')
 #from stl import mesh
 
 
-mesh = pv.read('overallRE2.stl')
+mesh = pv.read('overallBlender2.stl')
 
 #mesh = pv.read('Assignment_1.stl')
 
@@ -15,12 +15,12 @@ mesh = pv.read('overallRE2.stl')
 
 #sphere = pv.Sphere()
 tet = tetgen.TetGen(mesh)
-print("hello")
+
 vertices,elems = tet.tetrahedralize(order=1, mindihedral=20, minratio=1.5)
 grid = tet.grid
 
 grid.plot(show_edges=True)
-
+#print(elems)
 
 mask = np.logical_or(grid.points[:, 0] < 0, grid.points[:, 0] > 0.5)
 half = grid.extract_points(mask)
@@ -83,6 +83,8 @@ remove every third element and the first element; these are the number of vertic
 faces_array = np.array(tet.mesh.faces)
 indices_to_keep = np.arange(len(faces_array)) % 4 != 0
 tetSurfaceTriIds = faces_array[indices_to_keep]
+testSet = set(tetSurfaceTriIds)
+print(f"Number of surface points:   {len(testSet)}")
 
 
 
@@ -122,7 +124,7 @@ data = {
 }
 
 # Specify the output JSON file path
-output_file_path = "output_data_overallRE2.json"
+output_file_path = "output_data_overallBlender2.json"
 
 # Write the data to the JSON file
 with open(output_file_path, "w") as outfile:
@@ -209,7 +211,7 @@ with open('output.txt', 'w') as file:
 #! end of prints
 
 # Specify the output JSON file path
-output_file_path = "output_vertices_overallRE2.json"
+output_file_path = "output_vertices_overallBlender2.json"
 
 # Write the data to the JSON file
 with open(output_file_path, "w") as outfile:
